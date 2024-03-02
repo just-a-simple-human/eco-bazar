@@ -67,7 +67,7 @@ function ProductInShoppingCart({product}) {
             <ProductImg src={product.img}/>
             <ProductInfo>
                 <Body.Small>{product.name}</Body.Small>
-                <Body.Small $textcolor={colors.grey[5]}>{product.weight}kg &times; <DifferentText $$semibold='true'>${product.cost}</DifferentText></Body.Small>
+                <Body.Small $textcolor={colors.grey[5]}>{product.weight}kg &times; <DifferentText $semibold='true'>${product.cost}</DifferentText></Body.Small>
             </ProductInfo>
             <DeleteProductButton onClick={() => setIs$clicked(true)}>
                 <DeleteProductButtonImg></DeleteProductButtonImg>

@@ -157,7 +157,7 @@ function SaleBanners() {
 
                 <BannerHeading>
                     <Body.Small $textcolor={colors.brandingColors.white} $texttransform='uppercase' $medium='true'>Best Deals</Body.Small>
-                    <Headings.Heading03 $textcolor={colors.brandingColors.white} $$semibold='true'>Sale of the Month</Headings.Heading03>
+                    <Headings.Heading03 $textcolor={colors.brandingColors.white} $semibold='true'>Sale of the Month</Headings.Heading03>
                 </BannerHeading>
 
                 {(()=>{
@@ -180,7 +180,7 @@ function SaleBanners() {
                 })()}
 
                 <ShopNowButton>
-                    <Body.Small $textcolor={colors.brandingColors.primary} $$semibold='true'>Shop Now</Body.Small>
+                    <Body.Small $textcolor={colors.brandingColors.primary} $semibold='true'>Shop Now</Body.Small>
                     <ShopNowArrow width='15' height='12.05' color={colors.brandingColors.primary}/>
                 </ShopNowButton>
 
@@ -190,16 +190,16 @@ function SaleBanners() {
                 
                 <BannerHeading>
                     <Body.Small $textcolor={colors.brandingColors.white} $texttransform='uppercase' $medium='true'>85% Fat Free</Body.Small>
-                    <Headings.Heading03 $textcolor={colors.brandingColors.white} $$semibold='true'>Low-Fat Meat</Headings.Heading03>
+                    <Headings.Heading03 $textcolor={colors.brandingColors.white} $semibold='true'>Low-Fat Meat</Headings.Heading03>
                 </BannerHeading>
 
                 <SaleContainer>
                     <Body.Large $textcolor={colors.brandingColors.white}>Started at</Body.Large>
-                    <Body.Large $textcolor={colors.brandingColors.warning} $$semibold='true'>$79.99</Body.Large>
+                    <Body.Large $textcolor={colors.brandingColors.warning} $semibold='true'>$79.99</Body.Large>
                 </SaleContainer>
 
                 <ShopNowButton>
-                    <Body.Small $textcolor={colors.brandingColors.primary} $$semibold='true'>Shop Now</Body.Small>
+                    <Body.Small $textcolor={colors.brandingColors.primary} $semibold='true'>Shop Now</Body.Small>
                     <ShopNowArrow width='15' height='12.05' color={colors.brandingColors.primary}/>
                 </ShopNowButton>
 
@@ -209,7 +209,7 @@ function SaleBanners() {
                 
                 <BannerHeading>
                     <Body.Small $texttransform='uppercase' $medium='true'>Summer Sale</Body.Small>
-                    <Headings.Heading03 $$semibold='true'>100% Fresh Fruit</Headings.Heading03>
+                    <Headings.Heading03 $semibold='true'>100% Fresh Fruit</Headings.Heading03>
                 </BannerHeading>
 
                 <SaleContainer>
@@ -218,7 +218,7 @@ function SaleBanners() {
                 </SaleContainer>
 
                 <ShopNowButton>
-                    <Body.Small $textcolor={colors.brandingColors.primary} $$semibold='true'>Shop Now</Body.Small>
+                    <Body.Small $textcolor={colors.brandingColors.primary} $semibold='true'>Shop Now</Body.Small>
                     <ShopNowArrow width='15' height='12.05' color={colors.brandingColors.primary}/>
                 </ShopNowButton>
         

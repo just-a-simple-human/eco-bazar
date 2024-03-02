@@ -53,7 +53,7 @@ function NotFoundPage() {
       <Breadcrumbs breadcrumbWay={breadcrumb}/>
       <NotFoundMessage>
         <StyledImg src={NotFoundImg}/>
-        <Headings.Heading03 $margintop='32px' $textcolor={colors.grey[9]} $$semibold='true'>Oops! page not found</Headings.Heading03>
+        <Headings.Heading03 $margintop='32px' $textcolor={colors.grey[9]} $semibold='true'>Oops! page not found</Headings.Heading03>
         <Body.Medium $margintop='20px' $textcolor={colors.grey[5]} $textalign='center'>Ut consequat ac tortor eu vehicula. Aenean accumsan purus eros. Maecenas sagittis tortor at metus mollis</Body.Medium>
         <BackToHomeButton>Back To Home</BackToHomeButton>
       </NotFoundMessage>

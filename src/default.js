@@ -23,7 +23,7 @@ export const Typography = css`
 
   color: ${props => props.$textcolor || colors.grey[9]};
   font-family: ${props => {
-    if (props.$$semibold === 'true') {
+    if (props.$semibold === 'true') {
       return 'Poppins SemiBold'
     }
     if (props.$medium === 'true') {

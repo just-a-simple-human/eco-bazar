@@ -79,7 +79,7 @@ function SearchForm() {
     }}>
         <StyledSearchImg src={SearchImg}></StyledSearchImg>
         <StyledSearchFormInput type="search" id="search-input" placeholder='Search'/>
-        <StyledSearchFormButton type='submit' $$semibold='true' $textcolor={colors.brandingColors.white}>Search</StyledSearchFormButton>
+        <StyledSearchFormButton type='submit' $semibold='true' $textcolor={colors.brandingColors.white}>Search</StyledSearchFormButton>
     </StyledSearchForm>
     )
 }

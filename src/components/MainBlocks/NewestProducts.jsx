@@ -72,7 +72,7 @@ function NewestProducts() {
             
             <NewestProductsHeadingContainer>
                 <NewestProductsHeading>
-                    <Headings.Heading03 as={'h2'} $$semibold='true'>Newest Products</Headings.Heading03>
+                    <Headings.Heading03 as={'h2'} $semibold='true'>Newest Products</Headings.Heading03>
                     <Line/>
                 </NewestProductsHeading>
                 <ViewAllButton>

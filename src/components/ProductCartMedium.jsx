@@ -112,9 +112,9 @@ function ProductCart({product}) {
         <ProductCartContainer>
             <AddToWishlistButton/>
             <QuickViewButton/>
-            <Link to={`shop/product-${product.id}`}><ProductImg src={product.img}/></Link>
+            <Link to={`product-${product.id}`}><ProductImg src={product.img}/></Link>
             <ProductInfo>
-                <Body.Small as={Link} to={`shop/product-${product.id}`} $textcolor={colors.grey[7]}>{product.name}</Body.Small>
+                <Body.Small as={Link} to={`product-${product.id}`} $textcolor={colors.grey[7]}>{product.name}</Body.Small>
                 <Body.Medium $medium='true'>${product.cost}</Body.Medium>
                 <ProductRating>
                     {(product.showRaiting())}

@@ -68,7 +68,7 @@ function SubscriptionForm() {
         <SubscriptionButton type='submit' onClick={(e)=>{
             e.preventDefault()
         }}>
-            <Body.Medium $textcolor={colors.brandingColors.white} $lineheight='20px' $$semibold='true'>Subscribe</Body.Medium>
+            <Body.Medium $textcolor={colors.brandingColors.white} $lineheight='20px' $semibold='true'>Subscribe</Body.Medium>
         </SubscriptionButton>
     </SubscriptionFormContainer>
   )

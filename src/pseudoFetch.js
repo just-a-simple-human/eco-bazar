@@ -22,14 +22,14 @@ class Product {
 }
 
 export const greenApple = new Product('1', 'Green Apple', require('./images/products/GreenApple.png'), 14.99, 4)
-export const chaniseCabbage = new Product('1', 'Chanise Cabbage', require('./images/products/ChaniseCabbage.png'), 14.99, 4)
-export const greenLettuce = new Product('1', 'Green Lettuce', require('./images/products/GreenLettuce.png'), 14.99, 4)
-export const greenChili = new Product('1', 'Green Chili', require('./images/products/GreenChili.png'), 7.99, 4)
-export const corn = new Product('1', 'Corn', require('./images/products/Corn.png'), 14.99, 4)
-export const bigPotatos = new Product('1', 'Corn', require('./images/products/BigPotatos.png'), 14.99, 4)
-export const eggplant = new Product('1', 'Corn', require('./images/products/Eggplant.png'), 14.99, 4)
-export const freshCauliflower = new Product('1', 'Corn', require('./images/products/FreshCauliflower.png'), 14.99, 4)
-export const greenCucumber = new Product('1', 'Corn', require('./images/products/GreenCucumber.png'), 14.99, 4)
+export const chaniseCabbage = new Product('2', 'Chanise Cabbage', require('./images/products/ChaniseCabbage.png'), 14.99, 4)
+export const greenLettuce = new Product('3', 'Green Lettuce', require('./images/products/GreenLettuce.png'), 14.99, 4)
+export const greenChili = new Product('4', 'Green Chili', require('./images/products/GreenChili.png'), 7.99, 4)
+export const corn = new Product('5', 'Corn', require('./images/products/Corn.png'), 14.99, 4)
+export const bigPotatos = new Product('6', 'Big potatos', require('./images/products/BigPotatos.png'), 14.99, 4)
+export const eggplant = new Product('7', 'Eggplant', require('./images/products/Eggplant.png'), 14.99, 4)
+export const freshCauliflower = new Product('8', 'Fresh cauliflower', require('./images/products/FreshCauliflower.png'), 14.99, 4)
+export const greenCucumber = new Product('9', 'Green cucumber', require('./images/products/GreenCucumber.png'), 14.99, 4)
 
 class Category {
 

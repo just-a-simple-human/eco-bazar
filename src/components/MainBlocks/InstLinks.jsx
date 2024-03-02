@@ -90,7 +90,7 @@ function InstLinks() {
   return (
     <InstLinksContainer>
 
-      <Headings.Heading05 as={'h3'} $$semibold='true'>Follow us on Instagram</Headings.Heading05>
+      <Headings.Heading05 as={'h3'} $semibold='true'>Follow us on Instagram</Headings.Heading05>
       
       <PostsContainer>
 

@@ -61,7 +61,7 @@ function Features({featuresList}) {
                 <Feature key={index}>
                     <StyledImg src={element.icon}/>
                     <FeatureInfo>
-                        <Body.Medium $textcolor={colors.grey[9]} $$semibold='true'>{element.title}</Body.Medium>
+                        <Body.Medium $textcolor={colors.grey[9]} $semibold='true'>{element.title}</Body.Medium>
                         <Body.Small $textcolor={colors.grey[4]}>{element.description}</Body.Small>
                     </FeatureInfo>
                 </Feature>

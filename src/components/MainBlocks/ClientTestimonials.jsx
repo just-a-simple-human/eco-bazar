@@ -89,7 +89,7 @@ function ClientTestimonials() {
     <ClientTestimonialsContainer>
       <ClientTestimonialsHeadingContainer>
         <ClientTestimonialsHeading>
-          <Headings.Heading03 as={'h2'} $$semibold='true'>Client Testimonials</Headings.Heading03>
+          <Headings.Heading03 as={'h2'} $semibold='true'>Client Testimonials</Headings.Heading03>
           <Line/>
         </ClientTestimonialsHeading>
         <SliderButtonsContainer>

@@ -89,7 +89,7 @@ const ShopNowButton = styled(Link)`
     gap: 16px;
 
     ${Typography}
-    font-family: 'Poppins $$semibold='true'';
+    font-family: 'Poppins $semibold='true'';
     font-size: 16px;
 
     color: ${colors.brandingColors.white};
@@ -137,13 +137,13 @@ function WelcomeBlock() {
         <WelcomeBlockContent>
             <WelcomeBlockHeading>
                 <Body.Small $lspacing='0.28px' $textcolor={colors.brandingColors.primary} $texttransform='uppercase' $medium='true' $lineheight='100%'>Welcome to shopery</Body.Small>
-                <Headings.Display as={'h1'} $textcolor={colors.grey[9]} $$semibold='true'>Fresh & Healthy Organic Food</Headings.Display>
+                <Headings.Display as={'h1'} $textcolor={colors.grey[9]} $semibold='true'>Fresh & Healthy Organic Food</Headings.Display>
             </WelcomeBlockHeading>
             <WelcomeBlockOffer>
-                <Headings.Heading05 height='38px'>Sale up to <DifferentText $textcolor={colors.brandingColors.warning} $texttransform='uppercase' $$semibold='true'>30% OFF</DifferentText></Headings.Heading05>
+                <Headings.Heading05 height='38px'>Sale up to <DifferentText $textcolor={colors.brandingColors.warning} $texttransform='uppercase' $semibold='true'>30% OFF</DifferentText></Headings.Heading05>
                 <Body.Small $textcolor={colors.grey[5]} $whitespace='nowrap'>Free shipping on all your order. We deliver, you enjoy</Body.Small>
             </WelcomeBlockOffer>
-            <ShopNowButton to={`/shop`}>Shop now<ShopNowArrow/></ShopNowButton>
+            <ShopNowButton to={`/shop`} $semibold='true'>Shop now<ShopNowArrow/></ShopNowButton>
         </WelcomeBlockContent>
         <StyledWelcomeBlockImg src={WelcomeBlockImg}/>
         <Features featuresList={currentFeatures}/>

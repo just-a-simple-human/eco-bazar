@@ -20,7 +20,7 @@ const NewsletterSubscription = styled.section`
 
   width: 100vw;
   height: 162px;
-  padding-inline: 300px;
+  padding-inline: calc((100vw - 1320px)/2);
 
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@ const NewsletterSubscription = styled.section`
 const SubscriptionText = styled.div`
   
   width: 448px;
-  height: 61px;
+  height: fit-content;
   margin-left: 114.19px;
 
   display: flex;
@@ -47,6 +47,7 @@ const SubscriptionText = styled.div`
   gap: 4px;
 
 `
+
 
 const AppFooterContainer = styled.footer`
   
@@ -322,7 +323,7 @@ function AppFooter() {
             <StyledImg src={LogoImg}/>
             <SubscriptionText>
               <Body.XXL $medium='true'>Subscribe our Newsletter</Body.XXL>
-              <Body.Small>Pellentesque eu nibh eget mauris congue mattis matti.</Body.Small>
+              <Body.Small $textcolor={colors.grey[4]}>Pellentesque eu nibh eget mauris congue mattis matti.</Body.Small>
             </SubscriptionText>
             <SubscriptionForm/>
         </NewsletterSubscription>

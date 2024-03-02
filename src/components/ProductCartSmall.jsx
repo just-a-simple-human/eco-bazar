@@ -4,6 +4,7 @@ import { Body, StyledImg, colors } from '../default'
 import AddToCartButton from './UI/buttons/AddToCartButton'
 import AddToWishlistButton from './UI/buttons/AddToWishlistButton'
 import QuickViewButton from './UI/buttons/QuickViewButton'
+import { Link } from 'react-router-dom'
 
 
 const ProductImg = styled(StyledImg)`
@@ -103,9 +104,9 @@ const StyledProductCart = styled.div`
 function ProductCart({product}) {
   return (
     <StyledProductCart>
-      <ProductImg src={product.img}/>
+      <Link to={`product-${product.id}`}><ProductImg src={product.img}/></Link>
       <ProductContainer>
-        <Body.Small $textcolor={colors.grey[7]}>{product.name}</Body.Small>
+        <Body.Small as={Link} to={`product-${product.id}`} $textcolor={colors.grey[7]}>{product.name}</Body.Small>
         <SwipeContainer>
           <ProductInfo>
             <Body.Medium $medium='true'>${product.cost}</Body.Medium>

@@ -53,7 +53,7 @@ function FeaturedProducts() {
     return (
         <FeaturedProductsMainContainer>
             <FeaturedProductsHeadingContainer>
-                <Headings.Heading03 as={'h2'} $$semibold='true'>Featured Products</Headings.Heading03>
+                <Headings.Heading03 as={'h2'} $semibold='true'>Featured Products</Headings.Heading03>
                 <Line/>
             </FeaturedProductsHeadingContainer>
 

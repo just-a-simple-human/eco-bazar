@@ -42,7 +42,7 @@ function TopCategory() {
     return (
         <StyledTopCategory>
             <TopCategoryHeading>
-                <Headings.Heading03 as={'h2'} $$semibold='true'>Top Category</Headings.Heading03>
+                <Headings.Heading03 as={'h2'} $semibold='true'>Top Category</Headings.Heading03>
                 <Line/>
             </TopCategoryHeading>
             <CategorySlider categories={categories}/>

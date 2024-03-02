@@ -87,7 +87,7 @@ function ProductСollections() {
             <Body.Tiny $lspacing='0.36px' $lineheight='100%' $texttransform='uppercase' $textalign='center' $medium='true'>
               Summer Sale
             </Body.Tiny>
-            <Headings.Heading05 $textcolor={colors.brandingColors.primary} $textalign='center' $$semibold='true'>
+            <Headings.Heading05 $textcolor={colors.brandingColors.primary} $textalign='center' $semibold='true'>
               75% off
             </Headings.Heading05>
           </BannerHeading>
