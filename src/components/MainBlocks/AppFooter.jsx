@@ -20,7 +20,7 @@ const NewsletterSubscription = styled.section`
 
   width: 100vw;
   height: 162px;
-  padding-inline: 300px;
+  padding-inline: calc((100vw - 1320px)/2);
 
   display: flex;
   align-items: center;
