@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Pet-проект Eco-bazar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+__Eco-bazar__ - клиентская часть продуктового магазина выполненная по [данному дизайну](https://www.figma.com/community/file/1272474484693685580). Мобильная версия отсутствует
 
-## Available Scripts
+Все элементы интерфейса, за исключением полосы прокрутки, написаны с нуля
 
-In the project directory, you can run:
+Моковые данные продуктов сгенерированы при помощи [Mockaroo](https://www.mockaroo.com/)
 
-### `npm start`
+Изображения к продуктам сгенерированны с помощью [Fusion Brain API](https://fusionbrain.ai/docs/doc/api-dokumentaciya/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Увидеть __актуальную версию приложения__ можно по ссылке https://just-a-simple-human-eco-bazar.netlify.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+__Внимание! Приложение ещё находится в разработке__
 
-### `npm test`
+# Установка и локальный запуск
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Перед установкой и запуском убедитесь в том, что у Вас локально установлен Node.js
+```
+node -v
+```
+При необходимости выполните установку, как указано в [документации](https://nodejs.org/en/download/package-manager)
+___
+Установите зависимости при помощи npm
+```
+npm install
+```
+___
+Для запуска используйте стандартный скрипт
+```
+npm run start
+```
