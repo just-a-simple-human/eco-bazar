@@ -6,6 +6,7 @@ import poppinsMedium from "./fonts/Poppins-Medium.ttf";
 import poppinsSemiBold from "./fonts/Poppins-SemiBold.ttf";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+import { colors } from '#common/common.style';
 
 const Global = createGlobalStyle`
   @font-face {
@@ -21,7 +22,6 @@ const Global = createGlobalStyle`
     src: url(${poppinsSemiBold});
   }
   * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,15 +32,12 @@ const Global = createGlobalStyle`
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    
   }
 
   body {
-
     min-width: 100vw;
     overflow-y: hidden;
     overflow-x: hidden;
-
   }
 
   p, a, button, path, img {
@@ -54,43 +51,47 @@ const Global = createGlobalStyle`
   }
 
   ul {
-
     list-style: none;
-
   }
 
   button, a {
-
     cursor: pointer;
-    
   }
 
   img {
-
     object-fit: cover;
-
   }
 
   svg {
-
     pointer-events: none;
-
   }
 
   .swiper-slide {
-
     width: 320px;
+  }
 
+  & .os-scrollbar-vertical {
+    box-sizing: content-box;
+    right: 0;
+    min-width: 17.5px;
+    max-width: 17.5px;
+    & > .os-scrollbar-track {
+      & > .os-scrollbar-handle {
+        min-height: 190px;
+        max-height: auto;
+        width: 17.5px;
+        background: ${colors.brandingColors.primary};
+        opacity: 0.8;
+      }
+    }
   }
 
 `;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Global />
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
+  <BrowserRouter>
+    <Global />
+    <App />
+  </BrowserRouter>
 );

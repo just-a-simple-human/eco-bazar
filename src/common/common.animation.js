@@ -12,18 +12,6 @@ export function animationOnClick(isClicked, setIsClicked, mainFunction) {
   };
 }
 
-export function transitionOnClick(isClicked, setIsClicked, mainFunction) {
-    return {
-      disabled: isClicked ? true : null,
-      $clicked: isClicked ? "true" : null,
-      onClick: () => setIsClicked(true),
-      onTransitionEnd: (e) => {
-        setIsClicked(false);
-        e.propertyName === "transform" && getComputedStyle(e.target)[e.propertyName] !== "none" && mainFunction();
-      },
-    };
-  }
-
 export const appearance = keyframes`
     from {
         opacity: 0;

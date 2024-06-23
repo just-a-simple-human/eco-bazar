@@ -77,6 +77,4 @@ export const ProductRating = styled.div`
   width: 60px;
   height: 12px;
   margin-top: 6px;
-
-  display: flex;
 `;

@@ -8,16 +8,7 @@ export const StyledShoppingCart = styled.dialog`
     min-height: 100vh;
     overflow-x: hidden;
 
-    position: fixed;
-    left: auto;
-    top: 0;
-    z-index: 1;
-
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
-
-    animation-name: ${(props) => (props.$isclosing ? closing : openning)};
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
+    position: absolute;
 
     &::backdrop {
       background: rgba(0, 0, 0, 0.7);
@@ -30,8 +21,18 @@ export const ShoppingCartContainer = styled.div`
   min-height: inherit;
   padding: 40px;
 
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  z-index: 2;
+
   display: flex;
   flex-direction: column;
+
+  animation-name: ${(props) => (props.$isclosing ? closing : openning)};
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 
   background-color: ${colors.brandingColors.white};
 `;

@@ -1,5 +1,4 @@
-import GreyStar from "#svg/GreyStar";
-import OrangeStar from "#svg/OrangeStar";
+import Star from "#svg/Star.jsx"
 
 class Testimonial {
   constructor(clientName, clientImg, comment, rating) {
@@ -16,9 +15,9 @@ class Testimonial {
     }
     clientRating = clientRating.map((element, index) =>
       element ? (
-        <OrangeStar size={size} key={index} />
+        <Star isActive={true} size={size} key={index} />
       ) : (
-        <GreyStar size={size} key={index} />
+        <Star isActive={false} size={size} key={index} />
       ),
     );
     return clientRating;

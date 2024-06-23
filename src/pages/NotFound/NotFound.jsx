@@ -1,6 +1,6 @@
 import React from "react";
 import { Body, Headings, Page, StyledImg, colors, Typography } from "#common/common.style";
-import Breadcrumbs from "#components/Breadcrumbs";
+import Breadcrumbs from "#components/Breadcrumbs/Breadcrumbs.jsx";
 import styled from "styled-components";
 import NotFoundImg from "#images/NotFoundImg.png";
 import { Link } from "react-router-dom";
